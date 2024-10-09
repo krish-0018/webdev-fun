@@ -1,0 +1,82 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-size: 10px;
+  line-height: 1.5;
+  letter-spacing: 2;
+  word-spacing: 2;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  letter-spacing: 1.5;
+}
+
+h2 {
+  font-size: 2.5em;
+  letter-spacing: 1.5;
+}
+
+a:active {
+  color: rgb(0, 213, 255);
+}
+
+a:hover,
+a:focus {
+  color: rgb(0, 213, 255);
+  text-decoration: none;
+  outline: #a66;
+}
+
+a:link {
+  color: rgb(0, 213, 255);
+}
+
